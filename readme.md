@@ -19,5 +19,5 @@ $ cd blog-demo
 # checkout a module branch
 $ git checkout module-1
 
-# see the readme.md in the branch you check out for more details.
+# see the readme.md in the branch you checkout for more details.
 ```
