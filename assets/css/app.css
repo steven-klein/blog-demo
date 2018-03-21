@@ -24,6 +24,11 @@ body > main {
   word-wrap: break-word;
 }
 
+main {
+  display: flex;
+  flex-flow: column;
+}
+
 article {
   border-bottom: .1rem solid rgba(44, 62, 80, 0.25);
 }
@@ -35,30 +40,20 @@ article h1 {
 
 footer[role="contentinfo"] {
   border-top: .1rem solid rgba(44, 62, 80, 0.25);
-  margin-top: -.1rem;
+  margin-top: -.1rem; 
   text-align: center;
 }
 
+nav[role="navigation"],
+footer[role="contentinfo"] {
+  order: 99;
+}
+
 @media(min-width: 40rem) {
-  /**
-   * layout - bring navigation to top
-   */
-  main {
-    display: flex;
-    flex-flow: column;
-  }
-
-  header[role="banner"] {
-    order: 1;
-  }
-
-  nav[role="navigation"] {
-    order: 2;
-  }
-
-  section[role="main"],
+  
+  nav[role="navigation"],
   footer[role="contentinfo"] {
-    order: 99;
+    order: initial;
   }
 
   nav[role="navigation"] ul {
