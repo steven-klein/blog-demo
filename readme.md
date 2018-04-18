@@ -1,3 +1,3 @@
-# Blog Demo - Module 2 - Static HTML With Assets Workflow
+# Blog Demo - Module 2 - Basic PHP for Templating
 
-> The source code for module one of the blog building guide found [here](https://steven-klein.github.io/blog-guide/2-static-html-with-assets-workflow/).
+> The source code for module one of the blog building guide found [here](https://steven-klein.github.io/blog-guide/2-basic-php-templating/).
