@@ -120,6 +120,6 @@ function validateAndSanitzeFields($formData) {
 function mayDisplayFieldErrors($errors = [], $field = "") {
   if( isset($errors[$field]) && is_array($errors[$field]) ) {
     $fieldErrors = $errors[$field];
-    include dirname(__FILE__) . "/../templates/contactFormFieldErrors.php";
+    include dirname(__FILE__) . "/../partials/contactFormFieldErrors.php";
   }
 }

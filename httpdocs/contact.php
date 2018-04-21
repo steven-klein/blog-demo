@@ -1,6 +1,6 @@
 <?php include_once dirname(__FILE__) . "/../formHandlers/contact.php"; ?>
 <?php $formData = processForm(); // must be run before headers are sent since it may send headers. ?>
-<?php include dirname(__FILE__) . "/../templates/header.php"; ?>
+<?php include dirname(__FILE__) . "/../partials/header.php"; ?>
   <article>
     <header>
       <h1>Contact Me</h1>
@@ -11,7 +11,7 @@
     <p class="form-message error"><?php echo $formData['errors']['sent']; ?></p>
     <?php endif; ?>
     <p>If you want to get in touch complete the form below.</p>
-    <form action="/contact.php" method="post">
+    <form action="/contact.php" id="contact-form" method="post">
       <fieldset>
         <legend>Contact Form</legend>
         <p>* indicates a required field</p>
@@ -36,4 +36,4 @@
       </fieldset>
     </form>
   </article>
-<?php include dirname(__FILE__) . "/../templates/footer.php"; ?>
+<?php include dirname(__FILE__) . "/../partials/footer.php"; ?>
