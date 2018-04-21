@@ -1,4 +1,4 @@
-<?php include dirname(__FILE__) . "/../templates/header.php"; ?>
+<?php include dirname(__FILE__) . "/../partials/header.php"; ?>
 <article>
   <header>
     <h1>Welcome to my awesome website</h1>
@@ -17,4 +17,4 @@
     </li>
   </ul>
 </article>
-<?php include dirname(__FILE__) . "/../templates/footer.php"; ?>
+<?php include dirname(__FILE__) . "/../partials/footer.php"; ?>
