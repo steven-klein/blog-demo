@@ -4,20 +4,23 @@
 
 ### Branches
 
-1. [Static HTML](https://github.com/steven-klein/blog-demo/tree/module-1/)
-2. [Static HTML + Assets Workflow](https://github.com/steven-klein/blog-demo/tree/module-2/)
+1. [Static HTML](https://github.com/steven-klein/blog-demo/tree/1-static-html)
+2. [Basic PHP Templating](https://github.com/steven-klein/blog-demo/tree/2-basic-php)
+3. [Basic PHP Form Handling](https://github.com/steven-klein/blog-demo/tree/3-php-basic-form)
+4. [JS Form Validation](https://github.com/steven-klein/blog-demo/tree/4-js-form-validation)
+5. [Asset Bundling With Live Reload](https://github.com/steven-klein/blog-demo/tree/5-asset-bundling-live-reload)
 
 ### Usage
 
 ```sh
 # clone
-$ git clone git@github.com:steven-klein/blog-demo.git blog-demo
+$ git clone git@github.com:steven-klein/blog-demo.git source.test
 
 # change directory
 $ cd blog-demo
 
 # checkout a module branch
-$ git checkout module-1
+$ git checkout 1-static-html
 
 # see the readme.md in the branch you checkout for more details.
 ```
