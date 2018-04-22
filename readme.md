@@ -1,3 +1,3 @@
-# Static HTML to WP Source Code - Module 4 - JS Form Validation
+# Static HTML to WP Source Code - Module 4.1 - Standard WordPress
 
-> The source code for module one of the blog building guide found [here](https://steven-klein.github.io/blog-guide/4-js-form-validation/).
+> The source code for module one of the blog building guide found [here](https://steven-klein.github.io/blog-guide/4.1-standard-wordpress/).
