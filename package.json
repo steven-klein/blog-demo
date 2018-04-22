@@ -45,7 +45,9 @@
   "dependencies": {
     "core-js": "^2.4.1",
     "jquery": "^3.3.1",
-    "jquery-validation": "^1.17.0"
+    "jquery-validation": "^1.17.0",
+    "milligram-cssnext": "^1.0.1",
+    "normalize-css": "^2.3.1"
   },
   "browserslist": [
     "last 4 versions",

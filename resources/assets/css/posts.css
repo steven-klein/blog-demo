@@ -1,0 +1,27 @@
+/**
+ * resources/assets/css/posts.css
+ */
+
+article {
+  border-bottom: .1rem solid rgba(44, 62, 80, 0.25);
+  margin-bottom: 1rem;
+  padding: 1rem 0;
+}
+
+.post-navigation {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 1rem auto;
+}
+
+.post-navigation a {
+  display: block;
+  padding: .1rem;
+}
+
+.post-navigation .next {
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+}
