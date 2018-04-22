@@ -10,8 +10,11 @@ Use Yarn to install all necessary node modules to do development work on this pr
 # Install modules with Yarn
 $ yarn install
 
+# Duplicate and edit the env file for your environment
+$ cp .env.example .env
+
 # Start development with Browsersync
-$ yarn run dev
+$ yarn run watch
 ```
 
 ## Development Bundles

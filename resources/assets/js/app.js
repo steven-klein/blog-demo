@@ -1,6 +1,3 @@
-(function () {
-'use strict';
-
 /**
  * assets/js/app.js
  */
@@ -34,6 +31,3 @@
   }
 
 }(window.jQuery, window, document) );
-
-}());
-//# sourceMappingURL=app.js.map
