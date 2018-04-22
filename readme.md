@@ -1,3 +1,3 @@
-# Blog Demo - Module 3 - Basic PHP Form Handling
+# Blog Demo - Module 4 - JS Form Validation
 
-> The source code for module one of the blog building guide found [here](https://steven-klein.github.io/blog-guide/3-basic-php-form-handling/).
+> The source code for module one of the blog building guide found [here](https://steven-klein.github.io/blog-guide/4-js-form-validation/).
