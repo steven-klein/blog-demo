@@ -1,4 +1,4 @@
-# Blog Demo
+# Static HTML to WP Source Code
 
 > Source code for each module of the blog coding guide found [here](https://steven-klein.github.io/blog-guide/) broken down into branches.
 
