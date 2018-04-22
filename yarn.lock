@@ -1734,6 +1734,16 @@ isstream@~0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/isstream/-/isstream-0.1.2.tgz#47e63f7af55afa6f92e1500e690eb8b8529c099a"
 
+jquery-validation@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.17.0.tgz#ab66b6b583d7740b9bbd148993e50e8ac041f35b"
+  dependencies:
+    jquery "^1.7 || ^2.0 || ^3.1"
+
+"jquery@^1.7 || ^2.0 || ^3.1", jquery@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
 js-base64@^2.1.9:
   version "2.4.3"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.4.3.tgz#2e545ec2b0f2957f41356510205214e98fad6582"
@@ -3191,6 +3201,10 @@ rollup-plugin-commonjs@^7.0.0:
     magic-string "^0.19.0"
     resolve "^1.1.7"
     rollup-pluginutils "^2.0.1"
+
+rollup-plugin-includepaths@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-includepaths/-/rollup-plugin-includepaths-0.2.2.tgz#4b688f220aba88c682e3846b653ddd2eb107f1ac"
 
 rollup-plugin-node-resolve@^2.0.0:
   version "2.1.1"
