@@ -10,6 +10,7 @@ require_once get_stylesheet_directory() . "/includes/contactForm.php";
 add_action("after_setup_theme", "themeSetupThemeCapabilities", 10);
 function themeSetupThemeCapabilities() {
   register_nav_menu( "primary", "Primary navigation menu in the header." );
+  add_shortcode("theme-recent-posts", "themeRecentPosts");
 }
 
 // enqueue css/js assets
@@ -26,3 +27,6 @@ function themeScripts() {
 }
 
 // shortcode for post lists.
+function themeRecentPosts() {
+
+}
