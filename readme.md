@@ -9,6 +9,9 @@
 3. [Basic PHP Form Handling](https://github.com/steven-klein/blog-demo/tree/3-php-basic-form)
 4. [JS Form Validation](https://github.com/steven-klein/blog-demo/tree/4-js-form-validation)
 5. [Asset Bundling With Live Reload](https://github.com/steven-klein/blog-demo/tree/5-asset-bundling-live-reload)
+6. [Standard WordPress](https://github.com/steven-klein/blog-demo/tree/6-standard-wordpress)
+7. [Brkstn Bedrock WordPress](https://github.com/steven-klein/blog-demo/tree/7-brkstn-bedrock-wordpress)
+8. [Object Oriented Plugins](https://github.com/steven-klein/blog-demo/tree/8-oop-muplugins)
 
 ### Usage
 
