@@ -5,6 +5,8 @@
       </p>
     </footer>
   </main>
+  <script src="/assets/js/jquery-3.3.1.js" type="text/javascript"></script>
+  <script src="/assets/js/jquery.validate.js" type="text/javascript"></script>
   <script src="/assets/js/app.js" type="text/javascript"></script>
 </body>
 </html>
