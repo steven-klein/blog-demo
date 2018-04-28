@@ -23,7 +23,7 @@
 		"test": "cross-env NODE_ENV=production npm run build",
 		"uploads:prod": "cd httpdocs/app/uploads && project-sync prod_uploads down && cd ../../../",
 		"uploads:dev": "cd httpdocs/app/uploads && project-sync dev_uploads down && cd ../../../",
-		"watch": "npm-run-all --serial clean --parallel copy js css --parallel \"js -- --watch\" \"css:site -- --watch\" \"css:editor -- --watch\" \"copy:img -- --watch\" serve"
+		"watch": "npm-run-all --serial clean --parallel copy js css --parallel \"js -- --watch\" \"css:site -- --watch\" \"copy:img -- --watch\" serve"
 	},
 	"devDependencies": {
 		"browser-sync": "^2.18.5",

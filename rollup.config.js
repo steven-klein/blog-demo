@@ -28,7 +28,8 @@ export default {
             extensions: ['.js', '.json']
         }),
         commonjs({
-            include: ['node_modules/**', 'resources/**'],
+			include: ['node_modules/**', 'resources/**'],
+			exclude: ['node_modules/jquery-validation/**'],
             extensions: ['.js', '.json'],
             // if false then skip sourceMap generation for CommonJS modules
             sourceMap: true, // Default: true

@@ -20,13 +20,13 @@ ThemeHelper::setHelper('cleanTitle', true);
 ThemeHelper::setHelper('stripHead', true);
 ThemeHelper::setHelper('disableRSS', false);
 ThemeHelper::setHelper('excerptMore', '...');
-ThemeHelper::setHelper('excerptLength', 55);
+ThemeHelper::setHelper('excerptLength', 35);
 ThemeHelper::setHelper('imageDefaultLinkType', 'none');
 ThemeHelper::setHelper('themeFunctions', true);
 ThemeHelper::setHelper('stripEditorPastes', true);
 ThemeHelper::setHelper('addEditorStylesheet', true);
 ThemeHelper::setHelper('navMenus', [
-    'main-menu' => 'Main navigation menu - at the top of the site.',
+    'primary' => 'Main navigation menu - at the top of the site.',
 ]);
 
 /**
