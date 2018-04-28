@@ -79,19 +79,29 @@ footer[role="contentinfo"] {
   }
 }
 
-.post-navigation {
+.screen-reader-text {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.post-navigation .nav-links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 1rem auto;
 }
 
-.post-navigation a {
+.post-navigation .nav-links > div {
   display: block;
   padding: .1rem;
 }
 
-.post-navigation .next {
+.post-navigation .nav-links .nav-next {
   margin-left: auto;
   margin-right: 0;
   text-align: right;

@@ -15,10 +15,10 @@ get_header(); ?>
     <nav id="post-navigation" class="post-navigation">
     <?php
       // Previous/next post navigation.
-      the_post_navigation( [
+      the_post_navigation([
         'next_text' => 'Next Post',
         'prev_text' => 'Previous Post',
-       ] );
+      ]);
     ?>
     </nav>
     <?php
