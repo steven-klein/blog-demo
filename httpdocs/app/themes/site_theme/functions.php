@@ -4,10 +4,7 @@ include_once STYLESHEETPATH . '/inc/common.php';
 include_once STYLESHEETPATH . '/inc/fields/load.php';
 include_once STYLESHEETPATH . '/inc/cpt/cpt.php';
 
-// include our contact form functions.
-require_once get_stylesheet_directory() . "/inc/contactForm.php";
-
- // add primary site navigation
+// add primary site navigation
 add_action("after_setup_theme", "themeSetupThemeCapabilities", 10);
 function themeSetupThemeCapabilities() {
   add_shortcode("theme-recent-posts", "themeRecentPosts");
