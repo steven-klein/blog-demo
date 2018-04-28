@@ -1,2 +1,34 @@
-httpdocs/wp-config.php
-debug.log
+# Application
+httpdocs/app/plugins/*
+!httpdocs/app/plugins/.gitkeep
+httpdocs/app/mu-plugins/*/
+httpdocs/app/upgrade
+httpdocs/app/uploads/*
+!httpdocs/app/uploads/.gitkeep
+
+# WordPress
+httpdocs/wp
+httpdocs/app/debug.log
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.example
+!.env.staging
+
+# Vendor (e.g. Composer)
+vendor/*
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+npm.debug.log
+npm.debug.*.log
+
+# Vagrant
+bin
+.vagrant

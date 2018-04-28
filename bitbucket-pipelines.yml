@@ -1,0 +1,13 @@
+image: spklein/php5.6-phpunit-node:master
+
+pipelines:
+  default:
+    - step:
+        script:
+          - php --ini
+          - composer install --dry-run --optimize-autoloader
+          - node --version
+          - npm --version
+          - npm install --global yarn
+          - yarn install
+          - npm test

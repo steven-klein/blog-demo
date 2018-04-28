@@ -1,0 +1,22 @@
+{
+  "servers": {
+    "prod_uploads": {
+        "host": "ADD_YOUR_PROD_USER@HOST_HERE",
+        "path": "ADD_YOUR_FULL_FILE_PATH_HERE_TO_PROD_UPLOADS",
+        "exclude": [],
+        "delete": false
+    },
+    "dev_uploads": {
+        "host": "ADD_YOUR_PROD_USER@HOST_HERE",
+        "path": "ADD_YOUR_FULL_FILE_PATH_HERE_TO_PROD_UPLOADS",
+        "exclude": [],
+        "delete": false
+    }
+  },
+  "excludeGlobal": [
+      "project-sync.json",
+      ".DS_Store",
+      ".gitignore",
+      ".gitkeep"
+  ]
+}
