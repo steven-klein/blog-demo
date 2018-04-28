@@ -1,0 +1,40 @@
+/**
+ * resources/assets/css/forms.css
+ */
+
+label,
+input[type="text"],
+input[type="email"],
+textarea,
+.form-error {
+  display: block;
+  margin: .5rem auto;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 1rem;
+}
+
+textarea {
+  min-height: 20rem;
+}
+
+.form-error {
+  font-size: .9em;
+}
+
+.form-message {
+  font-size: 1.2em;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+

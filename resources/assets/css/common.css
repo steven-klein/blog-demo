@@ -1,0 +1,80 @@
+/**
+ * resources/assets/css/common.css
+ */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #2c3e50;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body > main {
+  margin: 0 auto;
+  max-width: 72rem;
+  overflow: hidden;
+  padding: 2rem;
+  word-wrap: break-word;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+footer[role="contentinfo"] {
+  border-top: .1rem solid rgba(44, 62, 80, 0.25);
+  margin-top: -.1rem;
+  text-align: center;
+}
+
+nav[role="navigation"],
+footer[role="contentinfo"] {
+  order: 99;
+}
+
+@media(min-width: 40rem) {
+  nav[role="navigation"],
+  footer[role="contentinfo"] {
+    order: initial;
+  }
+  nav[role="navigation"] ul {
+    align-items: center;
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+  nav[role="navigation"] ul a {
+    padding: .5rem 1rem;
+  }
+  section[role="main"]>article:last-of-type {
+    border-bottom: none;
+  }
+}
+
+.screen-reader-text {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
